@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="
+         width=device-width, initial-scale=1">
+         <link rel="stylesheet" type="text/css" href="style.css">
+            <title>Форма реєстрації</title>
+     </head>
+     <body>
+         <h2>Форма реєстрації</h2>
+         <form>
+             <label for="firstName">Ім'я</label>
+             <input type="text" id="firstName">
+             <label for="firstSurname">Прізвище</label>
+             <input type="text" id="firstSurname"
+             <label for="email">Email</label>
+             <input type="email" id="email">
+             <label for="password">Пароль</label>
+             <input type="password" id="password">
+             <label for="confirmPassword">Підтвердження Пароля</label
+             <input type="Password" id="confirmPassword">
+             <label for="age">Вік:</label>
+             <input type="number" id="age" min="1" max="100" name="age">
+             <label for="gender">Стать:</label>
+        <select id="gender" name="gender">
+            <option value="male">Чоловіча</option>
+            <option value="female">Жіноча</option>
+            <option value="other">Гендерфлюїд</option>
+        </select>
+          
+          <label class="checkbox-label">
+            Я погоджуюсь з умовами використання
+            <input type="checkbox" id="terms" name="terms">
+        </label>
+
+        <button type="submit">Зареєструватися</button>
+    </form>
+
+</body>
+</html>
